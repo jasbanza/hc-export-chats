@@ -70,6 +70,13 @@ web_modules/
 .env.*
 !.env.example
 
+# Export output files
+exported_chats.json
+example_export.json
+*.json
+!package.json
+!package-lock.json
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache

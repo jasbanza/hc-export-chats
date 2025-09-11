@@ -1,0 +1,20 @@
+{
+  "name": "hc-export-chats",
+  "version": "1.0.0",
+  "description": "Export HelpCrunch conversations to JSON format for AI training",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "export": "node index.js",
+    "config-check": "node config-check.js",
+    "validate": "node validate.js",
+    "test": "node validate.js"
+  },
+  "keywords": ["helpcrunch", "chat", "export", "api", "ai-training"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.2"
+  }
+}
