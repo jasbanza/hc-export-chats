@@ -76,6 +76,7 @@ example_export.json
 *.json
 !package.json
 !package-lock.json
+!sample-output.json
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache

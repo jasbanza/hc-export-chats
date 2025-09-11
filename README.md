@@ -35,6 +35,35 @@ Export all conversations from HelpCrunch to JSON format, optimized for AI traini
 
 ## Usage
 
+### Quick Start
+
+1. **Install and Configure**:
+   ```bash
+   npm install
+   cp .env.example .env
+   # Edit .env with your HelpCrunch credentials
+   ```
+
+2. **Check Configuration**:
+   ```bash
+   npm run config-check
+   ```
+
+3. **Run Export**:
+   ```bash
+   npm start
+   ```
+
+### Available Scripts
+
+| Script | Command | Description |
+|--------|---------|-------------|
+| `npm start` | `node index.js` | Run the export with current configuration |
+| `npm run export` | `node index.js` | Same as start |
+| `npm run config-check` | `node config-check.js` | Validate your configuration |
+| `npm test` | `node validate.js` | Run module validation tests |
+| `npm run validate` | `node validate.js` | Same as test |
+
 ### Basic Export
 ```bash
 npm start
@@ -97,6 +126,8 @@ The exported JSON file contains:
   ]
 }
 ```
+
+See `sample-output.json` for a complete example with multiple conversations.
 
 ### Conversation Text Format
 

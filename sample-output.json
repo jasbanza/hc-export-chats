@@ -1,0 +1,45 @@
+{
+  "exportedAt": "2024-01-15T10:30:00.000Z",
+  "organizationId": "org_12345",
+  "fromDate": "2024-01-01",
+  "totalConversations": 3,
+  "exportedChats": 3,
+  "chats": [
+    {
+      "chatId": "chat_001",
+      "organizationId": "org_12345",
+      "createdAt": "2024-01-02T09:15:00Z",
+      "updatedAt": "2024-01-02T09:45:00Z",
+      "status": "closed",
+      "customerEmail": "john.doe@example.com",
+      "customerName": "John Doe",
+      "assignedAgent": "Sarah Smith",
+      "messageCount": 6,
+      "conversationText": "[USER] Hello, I'm having trouble accessing my account dashboard\n[AGENT] Hi John! I'd be happy to help you with your account access. Can you tell me what error message you're seeing?\n[USER] It says 'Invalid credentials' but I'm sure my password is correct\n[AGENT] I understand that's frustrating. Let me check your account status. Can you confirm the email address associated with your account?\n[USER] Yes, it's john.doe@example.com\n[AGENT] Perfect! I can see your account here. It looks like there was a security lock placed on your account. I've just removed it. Please try logging in again now."
+    },
+    {
+      "chatId": "chat_002", 
+      "organizationId": "org_12345",
+      "createdAt": "2024-01-03T14:20:00Z",
+      "updatedAt": "2024-01-03T14:35:00Z",
+      "status": "closed",
+      "customerEmail": "jane.smith@company.com",
+      "customerName": "Jane Smith",
+      "assignedAgent": "Mike Johnson",
+      "messageCount": 4,
+      "conversationText": "[USER] Hi, I need to upgrade my subscription plan\n[AGENT] Hello Jane! I'd be glad to help you upgrade your subscription. What plan are you currently on and which plan would you like to move to?\n[USER] I'm on the Basic plan and want to upgrade to Pro\n[AGENT] Excellent choice! I've upgraded your account to Pro. You'll see the new features available immediately and the billing will be prorated for this month."
+    },
+    {
+      "chatId": "chat_003",
+      "organizationId": "org_12345", 
+      "createdAt": "2024-01-05T11:10:00Z",
+      "updatedAt": "2024-01-05T11:25:00Z",
+      "status": "open",
+      "customerEmail": "bob.wilson@startup.io",
+      "customerName": "Bob Wilson",
+      "assignedAgent": "Lisa Chen",
+      "messageCount": 3,
+      "conversationText": "[USER] Can you help me integrate your API with our system?\n[AGENT] Of course! I'd love to help you with the API integration. What specific functionality are you looking to implement?\n[USER] We need to sync user data and send automated notifications"
+    }
+  ]
+}
