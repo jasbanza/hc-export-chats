@@ -72,10 +72,13 @@ web_modules/
 
 # Export output files
 exported_chats.json
+exported_chats_summary.csv
+chat_cache.json
 example_export.json
 *.json
 !package.json
 !package-lock.json
+!.env.example
 !sample-output.json
 
 # parcel-bundler cache (https://parceljs.org/)
